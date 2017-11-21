@@ -1,0 +1,261 @@
+div.charts-surface > div[style*="F6F6F6"] { 
+	border-bottom: 1px solid #DDD;
+}
+
+
+.tileTitle {
+	height:36px;
+}
+
+.tileSubtitle {
+	height:17px;
+}
+
+.tile-nodata {
+	color:#ddd;
+}
+
+.tile-mock {
+	padding: 0 2px;
+	border: 1px solid gray;
+	background-color: white;
+	float: right;
+	font-size: 10px;
+	width: 32px;
+	margin-top: 10px;
+	margin-right:-2px;
+}
+
+.tileTargetColor {
+	width:4px;
+	height:130px;
+	top: 0px !important;
+	margin-top: 0px !important;
+	margin-left:-7px;
+	position:absolute;
+}
+
+.tileSectionHeader {
+	text-align:left;
+	font-size:15px;
+	border-bottom:1px solid gray;
+	margin-top:-25px;
+	margin-left:-5px;
+	overflow: hidden;
+}
+
+div.charts-panel {
+	overflow: visible;
+}
+
+.tileTargetColor.pass {
+	background-color: #08b233;
+}
+
+.tileTargetColor.fail {
+	background-color: #e50000;
+}
+
+.tileTargetColor.near {
+	background-color: #ffd700 ;
+}
+
+.tileTargetColor.notarget {
+	background-color: #ddd ;
+}
+
+.tileSubTitle, .tileTitle, .metric, .postMetric {
+	padding-left:2px;
+}
+
+.metric.versus {
+		 padding-bottom:5px;
+	 font-size:16px;
+	 margin-top:-5px;
+}
+
+.tileSubTitle {
+	padding-bottom:2px;
+}
+
+.tileTitle {
+	font-size:17.25px;
+	font-weight:600;
+	line-height:1.05;
+}
+
+.tile-header {
+	text-align:center; margin-top:-10px
+}
+
+div.charts-surface > div[style*="f6f6f6"] { 
+	border-bottom: 1px solid #DDD;
+}
+
+div.charts-surface > div[style*="f6f6ff"] { 
+	border-bottom: 1px solid #DDDDff;
+}
+
+.postMetric {
+	color:#808080;
+}
+
+.postMetric, .tile-postMetric {
+	font-size: 12px;
+	margin-top: -3px;
+	text-align: left;
+}
+
+.metric, .tile-metric, .tileMetric {
+	font-size: 32px;
+	font-weight: bold;
+	margin-top: -25px;
+	text-align: left;
+}
+
+.edgeTextTile {
+	margin-top:-25px;
+	font-size:15px;
+}
+
+
+
+
+
+.wekpi-funnelcharts div[style*="FFFFFF"] {
+	background: transparent !important;
+}
+
+.funnel-wekpi {
+	font-family:"Segoe UI Light";
+	width:160px;
+	color:#6D6E72;
+	text-align:left;
+}
+
+.funnel-wekpi-large {
+	text-align:center;
+}
+
+.funnel-wekpi-large > .funnel-value {
+	font-size: 48px;
+}
+
+.funnel-wekpi-large > .funnel-text {
+	font-size: 15px;
+	margin-top:-15px;
+}
+
+
+
+.funnel-wekpi-mediumupper > .funnel-value {
+	font-size: 45px;
+	color:#1C75BC;
+}
+.funnel-wekpi-mediumupper .funnel-unit {
+	font-size: 28px;
+}
+.funnel-wekpi-mediumupper > .funnel-text {
+	font-size: 13px;
+	margin-top:-10px;
+}
+
+
+
+.funnel-wekpi-mediumlower > .funnel-value {
+	font-size: 21px;
+	color:#27AAE1;
+	float:left;
+	margin-top:-25px;
+}
+
+.funnel-wekpi-mediumlower > .funnel-text {
+	font-family:"Segoe UI Light Italic";
+	font-size: 8px;
+	margin-top:-15px;
+	margin-left:3px;
+	color:#27AAE1;
+	float:left;
+}
+
+
+
+
+.funnel-wekpi-smallupper .funnel-unit {
+	font-size: 20px;
+}
+
+.funnel-wekpi-smallupper > .funnel-value {
+	font-size: 31px;
+	color:#1C75BC;
+}
+
+.funnel-wekpi-smallupper > .funnel-text {
+	font-size: 11px;
+	margin-top:-5px;
+}
+
+.funnel-wekpi-smalllower > .funnel-value {
+	font-size: 18px;
+	color:#27AAE1;
+	float:left;
+	margin-top:-25px;
+}
+
+.funnel-wekpi-smalllower > .funnel-text {
+	font-family:"Segoe UI Light Italic";
+	font-size: 8px;
+	margin-top:-15px;
+	margin-left:3px;
+	color:#27AAE1;
+	float:left;
+}
+
+.funnel-edgekpi-large > .funnel-value {
+    text-align:center;
+    margin-top:-25px;
+    font-size:45px ;
+    font-family: 'Segoe UI Light';
+    color: #595959;
+}
+
+.funnel-edgekpi-largeblue > .funnel-value {
+    text-align:center;
+    margin-top:-25px;
+    font-size:45px ;
+    font-family: 'Segoe UI Light';
+    color: #2e75b6;
+}
+
+.funnel-edgekpi-medium > .funnel-value, .funnel-edgekpi-medium-text > .funnel-value {
+    text-align:center;
+    margin-top:-25px;
+    font-size:30px ;
+    font-family: 'Segoe UI Light';
+    color: #595959;
+}
+
+.funnel-edgekpi-medium-text > .funnel-text {
+    float:left;
+    font-size:9.5px;
+    text-align:center;
+    font-style:italic;
+    color:#898989;
+    padding-top:16px;
+    margin: -25px 5px 0 0;
+}
+
+.funnel-edgekpi-medium-text  > .funnel-value {
+    float:right;
+}
+
+.funnel-people {
+    width:145px;
+    overflow:hidden
+}
+
+.funnel-people img {
+    height:22.5px;
+    width:11.5px;
+    float:left;
+}
